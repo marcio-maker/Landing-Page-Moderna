@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial Moderna</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <a href="#" class="logo">Minha<span>Marca</span></a>
+            
+            <nav class="navegacao">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#recursos">Recursos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="container">
+            <h1>Soluções Modernas para seu Negócio</h1>
+            <p>Transforme sua presença online com nossas ferramentas poderosas.</p>
+            <a href="#contato" class="botao">Comece Agora</a>
+        </div>
+    </section>
+
+    <section class="recursos" id="recursos">
+        <div class="container">
+            <h2>Nossos Recursos</h2>
+            
+            <div class="grid-recursos">
+                <div class="recurso">
+                    <div class="icone">🚀</div>
+                    <h3>Rápido</h3>
+                    <p>Carregamento ultrarrápido para melhor experiência do usuário.</p>
+                </div>
+                
+                <div class="recurso">
+                    <div class="icone">📱</div>
+                    <h3>Responsivo</h3>
+                    <p>Funciona perfeitamente em todos os dispositivos.</p>
+                </div>
+                
+                <div class="recurso">
+                    <div class="icone">🔒</div>
+                    <h3>Seguro</h3>
+                    <p>Proteção avançada para seus dados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            
+            <form id="form-contato" class="formulario">
+                <div class="grupo-form">
+                    <input type="text" name="nome" placeholder="Seu Nome" required>
+                </div>
+                
+                <div class="grupo-form">
+                    <input type="email" name="email" placeholder="Seu Email" required>
+                </div>
+                
+                <div class="grupo-form">
+                    <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                </div>
+                
+                <button type="submit" class="botao">Enviar Mensagem</button>
+                
+                <div class="mensagem-form"></div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; 2023 MinhaMarca. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
